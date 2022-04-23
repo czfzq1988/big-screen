@@ -3,16 +3,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue'
+import { defineComponent, ref } from "vue";
 
 export default defineComponent({
-  name: 'home-index',
+  name: "home-index",
   setup() {
-    const count = ref(1)
+    const count = ref(1);
 
     return {
-      count
-    }
-  }
-})
+      count,
+    };
+  },
+});
 </script>
